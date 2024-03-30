@@ -5,7 +5,6 @@ using Oracle.ManagedDataAccess.Client;
 namespace ETL_C_
 {
 
-
     public class OracleConnector
     {
         private readonly string _username;
@@ -75,7 +74,7 @@ namespace ETL_C_
             }
             finally
             {
-                connection.Close(); // Close the connection after executing the command
+                
             }
         }
 
